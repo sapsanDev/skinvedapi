@@ -1,6 +1,6 @@
 {
   "name": "skinvedapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API Skinvend for Node.JS",
   "main": "./src/skinvedapi.js",
   "scripts": {
