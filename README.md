@@ -1,8 +1,5 @@
-# a2s_sqe
-
-[![npm version](https://badge.fury.io/js/skinvedapi.svg)](https://badge.fury.io/js/skinvedapi)
-
 # steamvedapi
+[![npm version](https://badge.fury.io/js/skinvedapi.svg)](https://badge.fury.io/js/skinvedapi)
 
 Skinvend API wrapper for Node.js.  
 Provides convenient methods for interacting with the [Skinvend API](https://skinvend.io/en/documentation).
