@@ -1,4 +1,4 @@
-# steamvedapi
+# Skinved API
 [![npm version](https://badge.fury.io/js/skinvedapi.svg)](https://badge.fury.io/js/skinvedapi)
 
 Skinvend API wrapper for Node.js.  
