@@ -24,13 +24,13 @@ Provides convenient methods for interacting with the [Skinvend API](https://skin
 ## Installation
 
 ```bash
-npm install steamvedapi
+npm install skinvedapi
 ```
 
 ## Usage
 
 ```javascript
-const SkinvedAPI = require('steamvedapi');
+const SkinvendAPI = require('skinvedapi');
 
 const api = new SkinvendAPI('YOUR_API_KEY', 'YOUR_SECRET_KEY', {
   resultUrl: 'https://yourdomain.com/api/skinved/callback',
