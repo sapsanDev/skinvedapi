@@ -1,5 +1,6 @@
-# Skinved API
 [![npm version](https://badge.fury.io/js/skinvedapi.svg)](https://badge.fury.io/js/skinvedapi)
+
+# skinvedapi
 
 Skinvend API wrapper for Node.js.  
 Provides convenient methods for interacting with the [Skinvend API](https://skinvend.io/en/documentation).
@@ -31,9 +32,10 @@ npm install steamvedapi
 ```javascript
 const SkinvedAPI = require('steamvedapi');
 
-const api = new SkinvedAPI('YOUR_API_KEY', 'YOUR_SECRET_KEY', {
-  baseURL: 'https://api.skinvend.io',
-  timeout: 5000
+const api = new SkinvendAPI('YOUR_API_KEY', 'YOUR_SECRET_KEY', {
+  resultUrl: 'https://yourdomain.com/api/skinved/callback',
+  failUrl: 'https://yourdomain.com/fial_page',
+  successUrl: 'https://yourdomain.com/success_page'
 });
 
 // Example: Get Steam inventory
@@ -85,6 +87,9 @@ Check purchase status.
 
 ### PurchaseHistory(start_date, end_date)
 Get purchase history.
+
+### generateSignature(data, timestamp)
+Generate signature.
 
 ## License
 
